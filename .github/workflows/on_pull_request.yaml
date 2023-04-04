@@ -2,8 +2,12 @@
 name: Run Linting/Formatting on Pull Requests
 
 on:
-  - push
-  - pull_request
+  push:
+    branches:
+      - disabled
+  pull_request:
+    branches:
+      - disabled
   # See https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#onpull_requestpull_request_targetbranchesbranches-ignore for syntax docs
   # if you want to filter out branches, delete the `- pull_request` and uncomment these lines :
   # pull_request:  

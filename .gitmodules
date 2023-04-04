@@ -1,0 +1,3 @@
+[submodule ".build/paketo-nvidia-builder"]
+	path = .build/paketo-nvidia-builder
+	url = git@github.com:/elemeno-ai/paketo-nvidia-builder.git
