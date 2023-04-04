@@ -1,4 +1,5 @@
 wheel
+setuptools
 blendmodes
 accelerate
 basicsr
