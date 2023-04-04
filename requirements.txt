@@ -2,7 +2,6 @@ wheel
 setuptools
 blendmodes
 accelerate
-basicsr
 fonts
 font-roboto
 gfpgan
@@ -33,3 +32,4 @@ torchsde
 safetensors
 psutil
 rich
+git+https://github.com/XPixelGroup/BasicSR.git@master#egg=basicsr
