@@ -32,4 +32,3 @@ torchsde
 safetensors
 psutil
 rich
-git+https://github.com/XPixelGroup/BasicSR.git@master#egg=basicsr
