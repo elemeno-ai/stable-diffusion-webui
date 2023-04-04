@@ -1,9 +1,7 @@
 name: Build and Push to ECR using Pack CLI
 
 on:
-  push:
-    branches:
-      - '*'
+  - push
 
 jobs:
   build_and_push:
