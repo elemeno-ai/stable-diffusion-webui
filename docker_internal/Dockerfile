@@ -5,7 +5,8 @@ RUN apt-get update \
     python3.10 
 RUN ln -s /usr/bin/python3.10 /usr/bin/python
 RUN apt-get install -y python3-pip
-RUN apt-get install -y python3-venv
+RUN apt-get install -y python3-venv 
+
 RUN wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.0-1_all.deb
 RUN dpkg -i cuda-keyring_1.0-1_all.deb
 COPY stable-diffusion-webui stable-files
