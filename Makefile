@@ -11,3 +11,6 @@ prepare:
 pack: prepare
 	pack build "$(DOCKER_REPO)/genai/ui/stable-diffusion:$(DOCKER_TAG)" --buildpack paketo-buildpacks/python \
   	--builder local-builder
+
+push:
+	docker push "$(DOCKER_REPO):$(DOCKER_TAG)"

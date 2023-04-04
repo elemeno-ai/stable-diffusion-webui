@@ -49,7 +49,7 @@ jobs:
 
         make DOCKER_REPO=$DOCKER_REPO DOCKER_TAG=$IMAGE_TAG pack
 
-        docker push $DOCKER_IMAGE:$IMAGE_TAG
+        make DOCKER_REPO=$DOCKER_REPO DOCKER_TAG=$IMAGE_TAG push
 
     - name: Clean up Docker cache
       run: |
