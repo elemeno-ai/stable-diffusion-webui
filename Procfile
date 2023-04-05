@@ -1,1 +1,1 @@
-web: stable-files/webui.sh
+web: webui.sh
