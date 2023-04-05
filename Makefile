@@ -13,4 +13,4 @@ pack: prepare
   	--builder local-builder
 
 push:
-	docker push "$(DOCKER_REPO):$(DOCKER_TAG)"
+	docker push "$(DOCKER_REPO)/genai/ui/stable-diffusion:$(DOCKER_TAG)"
